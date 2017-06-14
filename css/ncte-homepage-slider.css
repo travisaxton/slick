@@ -1,4 +1,34 @@
 /** Slick slider customization for NCTE **/
-body {
-  
+.slider-container {
+  position: relative;
+  width: 960px;
+  height: 316px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider__slides,
+.slider__nav-thumbnails {
+  position: absolute;
+}
+.slider__slides {
+  top: 0;
+  left: 0;
+  width: 931px;
+}
+.slider__nav-thumbnails {
+  top: 0;
+  right: 0;
+  width: 100px;
+  z-index: 1;
+  background: black;
+  color: white;
+}
+.slider__nav-thumbnail {
+  float: none;
+  height: 79px;
+  width: 100% !important;
+}
+.slider__nav-thumbnail h3 {
+  margin: 0;
+  padding: 0;
 }

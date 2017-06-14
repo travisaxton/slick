@@ -8,7 +8,7 @@ $(document).ready(function($){
   });
 
   $('.slider__nav-thumbnails').slick({
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: '.slider',
     dots: true,
