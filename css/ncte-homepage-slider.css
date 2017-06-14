@@ -19,8 +19,8 @@
 .slider__nav-thumbnails {
   top: 0;
   right: 0;
-  width: 200px;
-  padding-left: 80px;
+  width: 250px;
+  padding-left: 130px;
   z-index: 1;
   color: white;
 }
@@ -28,6 +28,7 @@
   float: none;
   height: 79px;
   width: 100% !important;
+  line-height: 4;
 }
 .slider__nav-thumbnail h3 {
   margin: 0;
