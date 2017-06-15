@@ -33,6 +33,28 @@
   opacity: 0.7;
   font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
 }
+.slider__nav-thumbnail:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  position: relative;
+  top: 31px;
+  left: 90px;
+  opacity: 0;
+  transition: 1s;
+}
+.slider__nav-thumbnail:hover:before,
+.slider__nav-thumbnail.slick-current:before {
+  opacity: 1;
+  left: 20px;
+}
 
 .slider__nav-thumbnail h3 {
   font-size: 1em;
@@ -59,6 +81,7 @@
   background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 41%,rgba(255,255,255,1) 47%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 }
+
 
 
 /* background gradient */
