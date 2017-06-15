@@ -28,7 +28,7 @@
   float: none;
   height: 79px;
   width: 100% !important;
-  line-height: 4;
+  display: table-row !important;
   outline: none;
   opacity: 0.7;
   font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
@@ -38,6 +38,8 @@
   cursor: pointer;
   margin: 0;
   padding: 0;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 
