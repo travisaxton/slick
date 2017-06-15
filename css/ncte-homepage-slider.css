@@ -29,6 +29,7 @@
   height: 79px;
   width: 100% !important;
   line-height: 4;
+  outline: none;
 }
 .slider__nav-thumbnail h3 {
   margin: 0;
